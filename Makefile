@@ -57,4 +57,5 @@ MAKE_SCRIPT_DIR := $(ROOT)/mk
 ## V                 : Set verbosity level based on the V= parameter
 ##                     V=0 Low
 ##                     V=1 High
+include $(MAKE_SCRIPT_DIR)/build_verbosity.mk
 
